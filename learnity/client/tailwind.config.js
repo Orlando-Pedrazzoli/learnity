@@ -1,19 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      gridTemplateColumns:{
-        'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
+      gridTemplateColumns: {
+        auto: 'repeat(auto-fit, minmax(200px, 1fr))',
       },
       spacing: {
         'section-height': '500px',
       },
       fontSize: {
-        'default': ['15px', '21px'],
+        default: ['15px', '21px'],
         'course-deatails-heading-small': ['26px', '36px'],
         'course-deatails-heading-large': ['36px', '44px'],
         'home-heading-small': ['28px', '34px'],
@@ -28,4 +25,4 @@ export default {
     },
   },
   plugins: [],
-}
+};
